@@ -1,7 +1,7 @@
 '''
 Snake game.
 Authors:
-<insert the names of your teammates here>
+Andrew hill Ryan Logan
 '''
 
 import pygame
