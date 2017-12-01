@@ -69,6 +69,11 @@ def snake_ate_food(snake, food):
     food - 2-tuple representing the position in the grid of the food
     This function should return True if the head of the snake is in the same position as food.
     """
+    create_food_positon = 0
+    if snake[0] == food:
+        return True
+    if snake_ate_food:
+        return create_food_positon
     return False
 
 def snake_ran_out_of_bounds(snake):
@@ -76,6 +81,7 @@ def snake_ran_out_of_bounds(snake):
     snake - list of 2-tuples representing the positions of each snake segment
     Note that the grid is GRID_WIDTH cells wide and GRID_HEIGHT cells high.
     """
+    
     return False
 
 def snake_intersected_body(snake):
@@ -263,4 +269,3 @@ def start_game():
 
 # Start the snake game.
 start_game()
-
